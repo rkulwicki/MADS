@@ -33,14 +33,14 @@ namespace Assets.Scripts
 
         private void Update()
         {
-            RestrictUserChoices();
+            //RestrictUserChoices();
         }
 
         public void RestrictUserChoices()
         {
             for (int i = 0; i < _size; i++)
             {
-                if(_numbersToChooseFrom.Contains(numberChoices[i]))
+                //if(_numbersToChooseFrom.Contains(numberChoices[i]))
                     //todo create enum of the number choices?
             }
         }
